@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Model.HomeUI">
+  <grid id="27dc6" binding="MainContainer" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="1210" height="470"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="8198" binding="SideContainer" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="West"/>
+        <properties>
+          <preferredSize width="200" height="28"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="34cec" binding="SideHeaderContainer" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="North"/>
+            <properties>
+              <background color="-14775357"/>
+              <preferredSize width="200" height="70"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="e08e" class="javax.swing.JTextArea" binding="TitleSide">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <disabledTextColor color="-1711135"/>
+                  <editable value="false"/>
+                  <enabled value="false"/>
+                  <font name="Fira Code" size="25" style="1"/>
+                  <lineWrap value="true"/>
+                  <margin top="20" left="4" bottom="0" right="0"/>
+                  <opaque value="false"/>
+                  <preferredSize width="199" height="70"/>
+                  <text value="PhoneDiag"/>
+                </properties>
+              </component>
+              <component id="5985d" class="javax.swing.JLabel" binding="LogoImg" custom-create="true">
+                <constraints border-constraint="West"/>
+                <properties>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="799" binding="SideContentContainer" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="62334" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints border-constraint="West"/>
+                <properties>
+                  <background color="-12292942"/>
+                  <preferredSize width="10" height="24"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="b466e" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints border-constraint="East"/>
+                <properties>
+                  <background color="-12292942"/>
+                  <preferredSize width="10" height="24"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="c04ac" binding="CopyRight" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints border-constraint="South"/>
+                <properties>
+                  <background color="-12292942"/>
+                  <opaque value="true"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="b9073" class="javax.swing.JLabel" binding="CopyRightContent">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-12292942"/>
+                      <font name="Consolas" size="10" style="1"/>
+                      <foreground color="-920585"/>
+                      <horizontalAlignment value="0"/>
+                      <horizontalTextPosition value="0"/>
+                      <opaque value="true"/>
+                      <text value="@CopyRight by VKU-OOP"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="2d290" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints border-constraint="North"/>
+                <properties>
+                  <background color="-12292942"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="4ec03" binding="ContainerContent" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <background color="-12292942"/>
+                  <preferredSize width="180" height="10"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="e1eec" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints/>
+                    <properties>
+                      <background color="-12292942"/>
+                      <preferredSize width="152" height="24"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="4bd4d" binding="ProductListBtnWrapper" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints/>
+                    <properties>
+                      <background color="-12292942"/>
+                      <preferredSize width="180" height="40"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="3d15f" class="javax.swing.JLabel" binding="IconList" custom-create="true">
+                        <constraints/>
+                        <properties>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="2b37b" class="javax.swing.JButton" binding="ProductListBtn">
+                        <constraints/>
+                        <properties>
+                          <background color="-12292942"/>
+                          <borderPainted value="false"/>
+                          <focusPainted value="false"/>
+                          <font name="UD Digi Kyokasho N-B" size="14" style="1"/>
+                          <foreground color="-1512722"/>
+                          <horizontalAlignment value="2"/>
+                          <opaque value="true"/>
+                          <preferredSize width="130" height="30"/>
+                          <text value="Product list"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="781d2" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints/>
+                    <properties>
+                      <background color="-12292942"/>
+                      <preferredSize width="152" height="24"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="75cff" binding="featuresButtonWrapper" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints/>
+                    <properties>
+                      <background color="-12292942"/>
+                      <preferredSize width="180" height="40"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="c947d" class="javax.swing.JLabel" binding="IconFeat" custom-create="true">
+                        <constraints/>
+                        <properties>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="3da3" class="javax.swing.JButton" binding="FeaturesButton">
+                        <constraints/>
+                        <properties>
+                          <background color="-12292942"/>
+                          <borderPainted value="false"/>
+                          <focusPainted value="false"/>
+                          <font name="UD Digi Kyokasho N-B" size="14" style="2"/>
+                          <foreground color="-692642"/>
+                          <horizontalAlignment value="2"/>
+                          <opaque value="true"/>
+                          <preferredSize width="130" height="30"/>
+                          <text value="Features"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="bb01e" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints/>
+                    <properties>
+                      <background color="-12292942"/>
+                      <preferredSize width="152" height="24"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="e0e8d" binding="AdminLoginBtnWrapper" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints/>
+                    <properties>
+                      <background color="-12292942"/>
+                      <preferredSize width="180" height="40"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="e1cb" class="javax.swing.JLabel" binding="IconAdmin" custom-create="true">
+                        <constraints/>
+                        <properties>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="3445d" class="javax.swing.JButton" binding="AdminLoginBtn">
+                        <constraints/>
+                        <properties>
+                          <background color="-12292942"/>
+                          <borderPainted value="false"/>
+                          <focusPainted value="false"/>
+                          <font name="UD Digi Kyokasho N-B" size="14" style="1"/>
+                          <foreground color="-1512722"/>
+                          <horizontalAlignment value="2"/>
+                          <label value="Admin"/>
+                          <opaque value="true"/>
+                          <preferredSize width="130" height="30"/>
+                          <text value="Admin"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="81b56" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints/>
+                    <properties>
+                      <background color="-12292942"/>
+                      <preferredSize width="152" height="24"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="3559" binding="PageSection" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints/>
+                    <properties>
+                      <background color="-12292942"/>
+                      <preferredSize width="180" height="40"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="66d7f" class="javax.swing.JLabel" binding="IconPage" custom-create="true">
+                        <constraints/>
+                        <properties>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="300f6" class="javax.swing.JComboBox" binding="PageSelection">
+                        <constraints/>
+                        <properties>
+                          <background color="-5912582"/>
+                          <preferredSize width="130" height="30"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <component id="9403b" class="javax.swing.JButton" binding="CartBtn">
+                    <constraints/>
+                    <properties>
+                      <background color="-16731799"/>
+                      <borderPainted value="false"/>
+                      <focusPainted value="false"/>
+                      <font name="Fira Code" size="18" style="1"/>
+                      <horizontalTextPosition value="0"/>
+                      <text value="Cart"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="5ba63" binding="RightContainer" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-5417"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="96f5f" binding="HeaderContentContainer" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="North"/>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-1322558"/>
+              <foreground color="-9850695"/>
+              <opaque value="true"/>
+              <preferredSize width="24" height="70"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="5c278" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints border-constraint="North"/>
+                <properties>
+                  <background color="-1322558"/>
+                  <preferredSize width="24" height="10"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="e7524" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints border-constraint="South"/>
+                <properties>
+                  <background color="-1322558"/>
+                  <preferredSize width="24" height="10"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="bc291" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints border-constraint="West"/>
+                <properties>
+                  <background color="-1322558"/>
+                  <preferredSize width="30" height="24"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="f1982" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints border-constraint="East"/>
+                <properties>
+                  <background color="-1322558"/>
+                  <preferredSize width="40" height="24"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="93895" binding="HeaderSplitContainer" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <background color="-1322558"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="a419f" binding="CurrentTab" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1322558"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="91cf3" class="javax.swing.JLabel" binding="ArrowIcon" custom-create="true">
+                        <constraints border-constraint="West"/>
+                        <properties>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="203d7" class="javax.swing.JLabel" binding="TabTitle" custom-create="true">
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <font name="Courier New" size="16" style="1"/>
+                          <foreground color="-13812144"/>
+                          <text value="Feature Products"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="294a5" binding="SearchBar" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="-1" height="65"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-1322558"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="33ae5" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints border-constraint="North"/>
+                        <properties>
+                          <background color="-1322558"/>
+                          <preferredSize width="24" height="5"/>
+                        </properties>
+                        <border type="none"/>
+                        <children/>
+                      </grid>
+                      <grid id="44603" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints border-constraint="South"/>
+                        <properties>
+                          <background color="-1322558"/>
+                          <preferredSize width="24" height="5"/>
+                        </properties>
+                        <border type="none"/>
+                        <children/>
+                      </grid>
+                      <grid id="cf068" binding="SearchContainer" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <background color="-1322558"/>
+                          <opaque value="true"/>
+                          <preferredSize width="24" height="30"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="4cb14" class="javax.swing.JButton" binding="SearchBtn">
+                            <constraints>
+                              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="-1" height="30"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-9850695"/>
+                              <font name="Fira Code" size="18" style="1"/>
+                              <text value="Search"/>
+                            </properties>
+                          </component>
+                          <component id="38413" class="javax.swing.JLabel" binding="SearchIcon" custom-create="true">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Fira Code" size="18" style="1"/>
+                              <text value=""/>
+                            </properties>
+                          </component>
+                          <component id="c787b" class="javax.swing.JTextField" binding="SearchText">
+                            <constraints>
+                              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="30"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <font name="Fira Code" size="18" style="1"/>
+                              <foreground color="-420858"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <scrollpane id="72f0e" binding="BodyContainer">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-9850695"/>
+              <horizontalScrollBarPolicy value="30"/>
+              <opaque value="true"/>
+              <verticalScrollBarPolicy value="20"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="f8cd5" binding="ScrollBody" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints/>
+                <properties>
+                  <background color="-5417"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="9ec4e" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints border-constraint="West"/>
+                    <properties>
+                      <opaque value="false"/>
+                      <preferredSize width="24" height="24"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="74b8e" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints border-constraint="East"/>
+                    <properties>
+                      <opaque value="false"/>
+                      <preferredSize width="24" height="24"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="14cb1" binding="BodyMainWrapper" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <background color="-5417"/>
+                      <preferredSize width="0" height="0"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="f4fb0" binding="NavidateHolder" custom-create="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <opaque value="false"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <nested-form id="ff2b9" form-file="Model/HomeNavigateComponent/FeatureHomeUI.form" binding="TabFeatUI">
+                            <constraints border-constraint="Center"/>
+                          </nested-form>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                  <grid id="175d0" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints border-constraint="North"/>
+                    <properties>
+                      <opaque value="false"/>
+                      <preferredSize width="24" height="5"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="6ff45" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints border-constraint="South"/>
+                    <properties>
+                      <opaque value="false"/>
+                      <preferredSize width="24" height="5"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

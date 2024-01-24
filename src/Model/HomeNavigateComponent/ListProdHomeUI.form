@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Model.HomeNavigateComponent.ListProdHomeUI">
+  <grid id="27dc6" binding="ListProdWrapper" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="4212" height="457"/>
+    </constraints>
+    <properties>
+      <background color="-5417"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="a1322" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="c234a" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="East"/>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="1b8a8" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="a57ed" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="West"/>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="ff8df" binding="ListProdCenter" custom-create="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <opaque value="false"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>

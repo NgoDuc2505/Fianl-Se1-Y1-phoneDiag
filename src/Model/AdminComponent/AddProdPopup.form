@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Model.AdminComponent.AddProdPopup">
+  <grid id="27dc6" binding="Container" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-920585"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="d29a7" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="North"/>
+        <properties>
+          <opaque value="false"/>
+          <preferredSize width="24" height="20"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="6cace" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="West"/>
+        <properties>
+          <opaque value="false"/>
+          <preferredSize width="20" height="24"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="77d21" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="East"/>
+        <properties>
+          <opaque value="false"/>
+          <preferredSize width="20" height="24"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="aea3c" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="South"/>
+        <properties>
+          <opaque value="false"/>
+          <preferredSize width="24" height="20"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="629ed" binding="ContentContainer" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <opaque value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="2a704" class="javax.swing.JLabel" binding="Title">
+            <constraints border-constraint="North"/>
+            <properties>
+              <font name="Fira Code" size="22" style="1"/>
+              <foreground color="-13750221"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Add product"/>
+            </properties>
+          </component>
+          <grid id="27086" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <opaque value="false"/>
+              <requestFocusEnabled value="true"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="86202" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints border-constraint="West"/>
+                <properties>
+                  <opaque value="false"/>
+                  <preferredSize width="10" height="24"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="508a0" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints border-constraint="East"/>
+                <properties>
+                  <opaque value="false"/>
+                  <preferredSize width="10" height="24"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="33312" binding="BodyPopup" layout-manager="GridLayoutManager" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <opaque value="false"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="56112" class="javax.swing.JLabel" binding="nameLbl">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Fira Code" style="1"/>
+                      <foreground color="-14016436"/>
+                      <text value="Name:"/>
+                    </properties>
+                  </component>
+                  <component id="4c824" class="javax.swing.JTextField" binding="nameTf">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-2170652"/>
+                    </properties>
+                  </component>
+                  <component id="2280d" class="javax.swing.JLabel" binding="priceLbl">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Fira Code" style="1"/>
+                      <foreground color="-14016436"/>
+                      <text value="Price:"/>
+                    </properties>
+                  </component>
+                  <component id="f774c" class="javax.swing.JLabel" binding="decsLbl">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Fira Code" style="1"/>
+                      <foreground color="-14016436"/>
+                      <text value="Decribe:"/>
+                    </properties>
+                  </component>
+                  <component id="1af66" class="javax.swing.JLabel" binding="quantityLbl">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Fira Code" style="1"/>
+                      <foreground color="-14016436"/>
+                      <text value="Quantity:"/>
+                    </properties>
+                  </component>
+                  <component id="6d4fc" class="javax.swing.JLabel" binding="imgLbl">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Fira Code" style="1"/>
+                      <foreground color="-14016436"/>
+                      <text value="Image"/>
+                    </properties>
+                  </component>
+                  <component id="5da1d" class="javax.swing.JTextField" binding="priceTf">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-2170652"/>
+                    </properties>
+                  </component>
+                  <component id="51858" class="javax.swing.JTextField" binding="quantityTf">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-2170652"/>
+                    </properties>
+                  </component>
+                  <component id="34f5d" class="javax.swing.JButton" binding="filrChooseBtn">
+                    <constraints>
+                      <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-5912582"/>
+                      <borderPainted value="false"/>
+                      <focusPainted value="false"/>
+                      <label value="Choose image"/>
+                      <text value="Choose image"/>
+                    </properties>
+                  </component>
+                  <component id="aa8ef" class="javax.swing.JTextArea" binding="decsTaf">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-2170652"/>
+                      <margin top="10" left="10" bottom="0" right="0"/>
+                    </properties>
+                  </component>
+                  <component id="dada4" class="javax.swing.JLabel" binding="showPathLbl" custom-create="true">
+                    <constraints>
+                      <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Fira Code" style="1"/>
+                      <foreground color="-14016436"/>
+                      <text value="Choose your file"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="259dd" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="South"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="5b7c4" binding="buttonWrapper" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <opaque value="false"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="e97d1" class="javax.swing.JButton" binding="CancelBtn">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-678269"/>
+                          <borderPainted value="false"/>
+                          <focusPainted value="false"/>
+                          <font name="Fira Code" size="18" style="1"/>
+                          <label value="Cancel"/>
+                          <text value="Cancel"/>
+                        </properties>
+                      </component>
+                      <component id="5a5c3" class="javax.swing.JButton" binding="OkBtn">
+                        <constraints>
+                          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-16731799"/>
+                          <borderPainted value="false"/>
+                          <focusPainted value="false"/>
+                          <font name="Fira Code" size="18" style="1"/>
+                          <label value="Ok"/>
+                          <text value="Ok"/>
+                        </properties>
+                      </component>
+                      <grid id="60c6b" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                            <preferred-size width="60" height="-1"/>
+                            <maximum-size width="60" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-920585"/>
+                          <opaque value="true"/>
+                        </properties>
+                        <border type="none"/>
+                        <children/>
+                      </grid>
+                    </children>
+                  </grid>
+                  <grid id="f96fd" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints border-constraint="West"/>
+                    <properties>
+                      <background color="-920585"/>
+                      <opaque value="true"/>
+                      <preferredSize width="10" height="24"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="86419" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints border-constraint="East"/>
+                    <properties>
+                      <background color="-920585"/>
+                      <opaque value="true"/>
+                      <preferredSize width="10" height="24"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
