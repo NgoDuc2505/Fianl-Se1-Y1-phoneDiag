@@ -21,7 +21,7 @@
 - Kien
 
 
-## System Desidn Pattern
+## System Design Pattern
 
 - MVC - Model - Controller - View
 
